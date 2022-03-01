@@ -1,0 +1,29 @@
+{
+    "name": "OpenVRAutoUpdater",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ugui",
+            "expression": "",
+            "define": "VALVE_UPDATE_FORCE"
+        },
+        {
+            "name": "com.valvesoftware.openvr.installer.skipdelete",
+            "expression": "",
+            "define": "VALVE_SKIP_DELETE"
+        }
+    ],
+    "noEngineReferences": false
+}
